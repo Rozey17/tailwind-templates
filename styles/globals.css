@@ -74,3 +74,23 @@ a {
 .svg{
   @apply h-6 w-6 mr-2 fill-current
 }
+
+.menu-item{
+
+}
+
+.menu-item div{
+  @apply flex justify-between text-[#cb9d4d] 
+}
+
+.menu-item div h1{
+  @apply text-lg uppercase font-medium text-[#cb9d4d] tracking-wider font-oswald
+}
+
+.menu-item div span{
+@apply text-red-600 font-bold font-oswald text-sm
+}
+
+.menu-item p {
+  @apply text-gray-500 w-2/3
+}

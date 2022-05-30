@@ -179,19 +179,15 @@ const Pizzeria = () => {
         </div>
         <div className="px-10 grid grid-cols-2 gap-x-20 gap-y-5">
           {data2.map((item, index) => (
-            <div key={index} className="">
-              <div className="flex items-center justify-between">
-                <h1 className="text-lg uppercase font-medium text-[#cb9d4d] font-oswald tracking-wider">
-                  {item.name}
-                </h1>
-                <p className="text-[#cb9d4d]">
+            <div key={index} className="menu-item">
+              <div className="">
+                <h1 className="">{item.name}</h1>
+                <a className="">
                   ..............................................................................
-                </p>
-                <span className="text-red-600 font-bold font-oswald text-sm">
-                  $ 7.5 | 9.5 | 198
-                </span>
+                </a>
+                <span className="">$ 7.5 | 9.5 | 198</span>
               </div>
-              <p className="text-gray-500 w-2/3">
+              <p className="">
                 All beef hot dog, pickles, red onion, pepperoncini, and tomato.
               </p>
             </div>
