@@ -102,7 +102,8 @@ const Pizzeria = () => {
           </div>
           <div className="w-1/2">
             <img
-              src="/images/pexels-photo-2147491 (1).jpeg"
+              // src="/images/pexels-photo-2147491 (1).jpeg"
+              src="/images/pexels-photo-315755.jpeg"
               className="hero-image"
               alt=""
             />
