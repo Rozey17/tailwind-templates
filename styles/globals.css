@@ -94,3 +94,24 @@ a {
 .menu-item p {
   @apply text-gray-500 w-2/3
 }
+
+.menu-section {
+  @apply p-20 space-y-20 flex flex-col items-center
+}
+
+.section-header{
+  @apply space-y-5 text-center w-1/2 mx-auto 
+}
+
+.section-header a {
+  @apply text-red-600 text-xs font-medium tracking-[0.15em] font-oswald uppercase
+}
+
+
+.section-header h1{
+  @apply text-gray-800 text-4xl font-medium  font-oswald uppercase 
+}
+
+.section-header p {
+  @apply text-xl text-gray-500
+}

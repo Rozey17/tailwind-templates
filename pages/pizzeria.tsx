@@ -110,14 +110,10 @@ const Pizzeria = () => {
         </div>
       </section>
       <section className="p-20 space-y-10 bg-gray-50">
-        <div className="space-y-5 text-center w-1/2 mx-auto ">
-          <p className="text-red-600 text-xs font-medium tracking-[0.15em] font-oswald uppercase ">
-            the magic of flavor
-          </p>
-          <h1 className="text-gray-800 text-4xl font-medium  font-oswald uppercase ">
-            bienvenuto friends
-          </h1>
-          <p className="text-xl text-gray-500">
+        <div className="section-header">
+          <a className="">the magic of flavor</a>
+          <h1 className="">bienvenuto friends</h1>
+          <p className="">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ipsa
             animi facere sit reiciendis eos voluptas at, corrupti quibusdam
             voluptates.
@@ -163,15 +159,11 @@ const Pizzeria = () => {
           </div>
         </div>
       </section>
-      <section className="p-20 space-y-20 flex flex-col items-center">
-        <div className="space-y-5 text-center w-1/2 mx-auto ">
-          <p className="text-red-600 text-xs font-medium tracking-[0.15em] font-oswald uppercase">
-            pick your favorites
-          </p>
-          <h1 className="text-gray-800 text-4xl font-medium  font-oswald uppercase ">
-            Fefe’S PIZZA, THE BEST IN TOWN
-          </h1>
-          <p className="text-xl text-gray-500">
+      <section className="menu-section">
+        <div className="section-header">
+          <a className="">pick your favorites</a>
+          <h1 className="">Fefe’S PIZZA, THE BEST IN TOWN</h1>
+          <p className="">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ipsa
             animi facere sit reiciendis eos voluptas at, corrupti quibusdam
             voluptates.
