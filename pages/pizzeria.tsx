@@ -185,9 +185,14 @@ const Pizzeria = () => {
             </div>
           ))}
         </div>
-        <button className="button-1 ">
-          <span>order online</span>
-        </button>
+        <div className="menu-section-order">
+          <button className="button-1 ">
+            <span>order online</span>
+          </button>
+          <p className="">
+            * Offers available for carry-out and delivery orders only.
+          </p>
+        </div>
       </section>
     </>
   );

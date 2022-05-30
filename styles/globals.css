@@ -99,6 +99,13 @@ a {
   @apply p-20 space-y-20 flex flex-col items-center
 }
 
+.menu-section-order{
+  @apply space-y-6 flex flex-col items-center
+}
+
+.menu-section-order p{
+  @apply text-xs text-gray-500 text-center
+}
 .section-header{
   @apply space-y-5 text-center w-1/2 mx-auto 
 }
@@ -115,3 +122,4 @@ a {
 .section-header p {
   @apply text-xl text-gray-500
 }
+
