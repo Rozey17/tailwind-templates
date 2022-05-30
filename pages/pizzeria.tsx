@@ -1,19 +1,37 @@
+import Image from "next/image";
+
 const data = [
   {
-    image: "https://images.pexels.com/photos/4254139/pexels-photo-4254139.jpeg",
+    image:
+      "https://res.cloudinary.com/dvitljs6q/image/upload/v1653930529/pexels-photo-4254139_mri2bh.jpg",
     title: "order online",
     description: "order today",
   },
   {
-    image: "https://images.pexels.com/photos/3490364/pexels-photo-3490364.jpeg",
+    image:
+      "https://res.cloudinary.com/dvitljs6q/image/upload/v1653930527/pexels-photo-3490364_aisljh.jpg",
     title: "our menu",
     description: "nostro menu",
   },
   {
-    image: "https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg",
+    image:
+      "https://res.cloudinary.com/dvitljs6q/image/upload/v1653930525/pexels-photo-905847_q5uvzu.jpg",
     title: "explore kitchen",
     description: "explore more",
   },
+];
+
+const data2 = [
+  { name: "chicago dog" },
+  { name: "SPINACH FETA PESTO" },
+  { name: "TOMATO PESTO	" },
+  { name: "DIMO FLORENTINE" },
+  { name: "MARGHERITA" },
+  { name: "PEP SAUSAGE" },
+  { name: "THE DIANA ROSS" },
+  { name: "THE MARY WILSON" },
+  { name: "BEEF" },
+  { name: "PEPPERONI" },
 ];
 
 const Pizzeria = () => {
@@ -84,7 +102,7 @@ const Pizzeria = () => {
           </div>
           <div className="w-1/2">
             <img
-              src="https://images.pexels.com/photos/2147491/pexels-photo-2147491.jpeg"
+              src="/images/pexels-photo-2147491 (1).jpeg"
               className="hero-image"
               alt=""
             />
@@ -108,11 +126,11 @@ const Pizzeria = () => {
         <div className="grid grid-cols-3 gap-7 mx-auto">
           {data.map((item, index) => (
             <div key={index} className="card">
-              <div className="">
+              <div className="h-80">
                 <img
                   src={item.image}
-                  className="h-80 w-full object-cover object-center"
                   alt=""
+                  className="h-full w-full object-cover object-center"
                 />
               </div>
 
@@ -124,7 +142,7 @@ const Pizzeria = () => {
               </p>
               <button className="">
                 <svg
-                  className="h-5 w-5 mr-2 fill-current"
+                  className="svg"
                   viewBox="0 0 1024 1024"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -133,6 +151,35 @@ const Pizzeria = () => {
                 <span className="">{item.description}</span>
               </button>
             </div>
+          ))}
+        </div>
+      </section>
+      <section className="relative bg-fixed bg-cover bg-center h-[600px] bg-[url('/images/pexels-photo-6150423.jpeg')]">
+        <div className="absolute inset-0 bg-black bg-opacity-30">
+          <div className="  flex flex-col items-center justify-center h-full">
+            <h1 className="text-6xl text-white font-medium font-oswald leading-tight">
+              GO AHEAD AND BUILD YOUR OWN PIZZA WE WON’T JUDGE!
+            </h1>
+          </div>
+        </div>
+      </section>
+      <section className="p-20 space-y-10 bg-gray-50">
+        <div className="space-y-5 text-center w-1/2 mx-auto ">
+          <p className="text-red-600 text-xs font-medium tracking-[0.15em] font-oswald uppercase">
+            pick your favorites
+          </p>
+          <h1 className="text-gray-800 text-4xl font-medium  font-oswald uppercase ">
+            Fefe’S PIZZA, THE BEST IN TOWN
+          </h1>
+          <p className="text-xl text-gray-500">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ipsa
+            animi facere sit reiciendis eos voluptas at, corrupti quibusdam
+            voluptates.
+          </p>
+        </div>
+        <div className="px-20 grid grid-cols-2 gap-20">
+          {data.map((item, index) => (
+            <div key={index} className=""></div>
           ))}
         </div>
       </section>

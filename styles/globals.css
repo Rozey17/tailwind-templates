@@ -64,9 +64,13 @@ a {
 }
 
 .card button {
-  @apply flex text-[#cb9d4d]
+  @apply flex text-[#cb9d4d] items-center
 }
 
 .card button span {
   @apply text-xs font-medium uppercase font-oswald  tracking-widest
+}
+
+.svg{
+  @apply h-6 w-6 mr-2 fill-current
 }
