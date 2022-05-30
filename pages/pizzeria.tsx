@@ -163,7 +163,7 @@ const Pizzeria = () => {
           </div>
         </div>
       </section>
-      <section className="p-20 space-y-20 ">
+      <section className="p-20 space-y-20 flex flex-col items-center">
         <div className="space-y-5 text-center w-1/2 mx-auto ">
           <p className="text-red-600 text-xs font-medium tracking-[0.15em] font-oswald uppercase">
             pick your favorites
@@ -193,6 +193,9 @@ const Pizzeria = () => {
             </div>
           ))}
         </div>
+        <button className="button-1 ">
+          <span>order online</span>
+        </button>
       </section>
     </>
   );
