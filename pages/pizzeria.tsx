@@ -163,7 +163,7 @@ const Pizzeria = () => {
           </div>
         </div>
       </section>
-      <section className="p-20 space-y-10 bg-gray-50">
+      <section className="p-20 space-y-20 ">
         <div className="space-y-5 text-center w-1/2 mx-auto ">
           <p className="text-red-600 text-xs font-medium tracking-[0.15em] font-oswald uppercase">
             pick your favorites
@@ -177,9 +177,24 @@ const Pizzeria = () => {
             voluptates.
           </p>
         </div>
-        <div className="px-20 grid grid-cols-2 gap-20">
-          {data.map((item, index) => (
-            <div key={index} className=""></div>
+        <div className="px-10 grid grid-cols-2 gap-x-20 gap-y-5">
+          {data2.map((item, index) => (
+            <div key={index} className="">
+              <div className="flex items-center justify-between">
+                <h1 className="text-lg uppercase font-medium text-[#cb9d4d] font-oswald tracking-wider">
+                  {item.name}
+                </h1>
+                <p className="text-[#cb9d4d]">
+                  ..............................................................................
+                </p>
+                <span className="text-red-600 font-bold font-oswald text-sm">
+                  $ 7.5 | 9.5 | 198
+                </span>
+              </div>
+              <p className="text-gray-500 w-2/3">
+                All beef hot dog, pickles, red onion, pepperoncini, and tomato.
+              </p>
+            </div>
           ))}
         </div>
       </section>
