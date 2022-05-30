@@ -36,7 +36,7 @@ a {
 }
 
 .hero-title{
-  @apply   text-[118px] -skew-y-[7deg]  font-oswald font-medium text-[#cb9d4d] uppercase leading-[1.1] -z-10
+  @apply   text-[118px] -skew-y-[7deg]  font-oswald font-medium text-[#cb9d4d] uppercase leading-[1.1] -z-10 brightness-90
 }
 
 .button-1{

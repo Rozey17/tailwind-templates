@@ -44,7 +44,7 @@ const Pizzeria = () => {
           className="absolute -left-40 top-20 h-[600px]  opacity-5 -z-30"
         />
         <div className="absolute inset-0 flex">
-          <div className="w-1/2 py-5 px-16 relative">
+          <div className="w-1/2 py-6 px-16 relative">
             <div className="header">
               <div className="">
                 <a href="" className="">
@@ -87,7 +87,7 @@ const Pizzeria = () => {
                 </nav>
               </div>
             </div>
-            <div className="flex items-end justify-between mb-16  relative">
+            <div className="flex items-end justify-between mb-11  relative">
               <h1 className="hero-title w-1/2 ">authentic tuscany flavor</h1>
               <img
                 src="https://pizzashop-jouelestours.com/src/img/logo.png"
