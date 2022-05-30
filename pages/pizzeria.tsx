@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Slider from "react-slick";
 
 const data = [
   {
@@ -35,6 +36,47 @@ const data2 = [
 ];
 
 const Pizzeria = () => {
+  const settings = {
+    // className: "center",
+    // centerPadding: "60px",
+    // dots: true,
+    //  fade: true,
+    infinite: true,
+    // speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    // draggable:true
+    arrows: false,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 8000,
+    // responsive: [
+    //   {
+    //     breakpoint: 1024,
+    //     settings: {
+    //       slidesToShow: 3,
+    //       slidesToScroll: 3,
+    //       infinite: true,
+    //       dots: true,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 600,
+    //     settings: {
+    //       slidesToShow: 2,
+    //       slidesToScroll: 2,
+    //       initialSlide: 2,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 480,
+    //     settings: {
+    //       slidesToShow: 1,
+    //       slidesToScroll: 1,
+    //     },
+    //   },
+    // ],
+  };
   return (
     <>
       <section className="relative h-screen flex">
@@ -100,13 +142,23 @@ const Pizzeria = () => {
               <span>order online</span>
             </button>
           </div>
-          <div className="w-1/2">
-            <img
-              // src="/images/pexels-photo-2147491 (1).jpeg"
-              src="/images/pexels-photo-315755.jpeg"
-              className="hero-image"
-              alt=""
-            />
+          <div className="w-1/2 overflow-hidden">
+            <Slider {...settings}>
+              <div className="h-screen ">
+                <img
+                  src="/images/pexels-photo-2147491 (1).jpeg"
+                  className="hero-image"
+                  alt=""
+                />
+              </div>
+              <div className="h-screen">
+                <img
+                  src="/images/pexels-photo-315755.jpeg"
+                  className="hero-image"
+                  alt=""
+                />
+              </div>
+            </Slider>
           </div>
         </div>
       </section>
