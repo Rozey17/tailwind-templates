@@ -50,6 +50,7 @@ const Pizzeria = () => {
     autoplay: true,
     speed: 2000,
     autoplaySpeed: 8000,
+    pauseOnHover: false,
     // responsive: [
     //   {
     //     breakpoint: 1024,
