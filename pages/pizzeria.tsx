@@ -48,7 +48,7 @@ const Pizzeria = () => {
     // draggable:true
     arrows: false,
     autoplay: true,
-    speed: 2000,
+    speed: 800,
     autoplaySpeed: 8000,
     pauseOnHover: false,
     // responsive: [
