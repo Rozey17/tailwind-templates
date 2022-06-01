@@ -79,68 +79,188 @@ const Pizzeria = () => {
   };
   return (
     <>
-      <section className="relative h-screen flex">
+      <section className="relative flex h-screen">
         <img
           src="/images/Pizza-logo-vector-PNG.png"
           alt=""
           className="absolute -left-40 top-20 h-[600px]  opacity-5 -z-30"
         />
         <div className="absolute inset-0 flex">
-          <div className="w-1/2 py-6 px-16 relative">
-            <div className="header">
+          <div className="relative w-1/2 px-16 py-6">
+            <Slider {...settings}>
               <div className="">
-                <a href="" className="">
+                <div className="header">
+                  <div className="">
+                    <a href="" className="">
+                      <img
+                        src="https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/sites/9/2019/03/0080_t_roppolos-logo_9.png"
+                        alt=""
+                        className="h-16"
+                      />
+                    </a>
+                  </div>
+                  <div className="">
+                    <nav className="navbar">
+                      <ul className="">
+                        <li className="">
+                          <a href="" className="">
+                            home
+                          </a>
+                        </li>
+                        <li className="">
+                          <a href="" className="">
+                            pages
+                          </a>
+                        </li>
+                        <li className="">
+                          <a href="" className="">
+                            menu
+                          </a>
+                        </li>
+                        <li className="">
+                          <a href="" className="">
+                            events
+                          </a>
+                        </li>
+                        <li className="">
+                          <a href="" className="">
+                            blog
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+                <div className="relative flex items-end justify-between mb-11">
+                  <h1 className="w-1/2 hero-title ">
+                    authentic tuscany flavor
+                  </h1>
                   <img
-                    src="https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/sites/9/2019/03/0080_t_roppolos-logo_9.png"
+                    src="https://pizzashop-jouelestours.com/src/img/logo.png"
                     alt=""
-                    className="h-16"
+                    className="absolute h-52 -bottom-20 right-20 -z-20"
                   />
-                </a>
+                </div>
+
+                <button className="button-1">
+                  <span>order online</span>
+                </button>
               </div>
               <div className="">
-                <nav className="navbar">
-                  <ul className="">
-                    <li className="">
-                      <a href="" className="">
-                        home
-                      </a>
-                    </li>
-                    <li className="">
-                      <a href="" className="">
-                        pages
-                      </a>
-                    </li>
-                    <li className="">
-                      <a href="" className="">
-                        menu
-                      </a>
-                    </li>
-                    <li className="">
-                      <a href="" className="">
-                        events
-                      </a>
-                    </li>
-                    <li className="">
-                      <a href="" className="">
-                        blog
-                      </a>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-            </div>
-            <div className="flex items-end justify-between mb-11  relative">
-              <h1 className="hero-title w-1/2 ">authentic tuscany flavor</h1>
-              <img
-                src="https://pizzashop-jouelestours.com/src/img/logo.png"
-                alt=""
-                className="h-52 absolute -bottom-20 right-20 -z-20"
-              />
-            </div>
+                <div className="header">
+                  <div className="">
+                    <a href="" className="">
+                      <img
+                        src="https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/sites/9/2019/03/0080_t_roppolos-logo_9.png"
+                        alt=""
+                        className="h-16"
+                      />
+                    </a>
+                  </div>
+                  <div className="">
+                    <nav className="navbar">
+                      <ul className="">
+                        <li className="">
+                          <a href="" className="">
+                            home
+                          </a>
+                        </li>
+                        <li className="">
+                          <a href="" className="">
+                            pages
+                          </a>
+                        </li>
+                        <li className="">
+                          <a href="" className="">
+                            menu
+                          </a>
+                        </li>
+                        <li className="">
+                          <a href="" className="">
+                            events
+                          </a>
+                        </li>
+                        <li className="">
+                          <a href="" className="">
+                            blog
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+                <div className="relative flex items-end justify-between mb-11">
+                  <h1 className="w-3/4 hero-title ">the real italian tastes</h1>
+                  <img
+                    src="https://pizzashop-jouelestours.com/src/img/logo.png"
+                    alt=""
+                    className="absolute h-52 -bottom-20 right-20 -z-20"
+                  />
+                </div>
 
-            <button className="button-1">
-              <span>order online</span>
-            </button>
+                <button className="button-1">
+                  <span>order online</span>
+                </button>
+              </div>
+              <div className="">
+                <div className="header">
+                  <div className="">
+                    <a href="" className="">
+                      <img
+                        src="https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/sites/9/2019/03/0080_t_roppolos-logo_9.png"
+                        alt=""
+                        className="h-16"
+                      />
+                    </a>
+                  </div>
+                  <div className="">
+                    <nav className="navbar">
+                      <ul className="">
+                        <li className="">
+                          <a href="" className="">
+                            home
+                          </a>
+                        </li>
+                        <li className="">
+                          <a href="" className="">
+                            pages
+                          </a>
+                        </li>
+                        <li className="">
+                          <a href="" className="">
+                            menu
+                          </a>
+                        </li>
+                        <li className="">
+                          <a href="" className="">
+                            events
+                          </a>
+                        </li>
+                        <li className="">
+                          <a href="" className="">
+                            blog
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+                <div className="relative flex items-end justify-between mb-11">
+                  <h1 className="w-3/4 hero-title ">
+                    the true taste of naples
+                  </h1>
+                  <img
+                    src="https://pizzashop-jouelestours.com/src/img/logo.png"
+                    alt=""
+                    className="absolute h-52 -bottom-20 right-20 -z-20"
+                  />
+                </div>
+
+                <button className="button-1">
+                  <span>order online</span>
+                </button>
+              </div>
+            </Slider>
           </div>
           <div className="w-1/2 overflow-hidden">
             <Slider {...settings}>
@@ -154,6 +274,13 @@ const Pizzeria = () => {
               <div className="h-screen">
                 <img
                   src="/images/pexels-photo-315755.jpeg"
+                  className="hero-image"
+                  alt=""
+                />
+              </div>
+              <div className="h-screen">
+                <img
+                  src="https://images.pexels.com/photos/6937441/pexels-photo-6937441.jpeg"
                   className="hero-image"
                   alt=""
                 />
@@ -172,18 +299,18 @@ const Pizzeria = () => {
             voluptates.
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-7 mx-auto">
+        <div className="grid grid-cols-3 mx-auto gap-7">
           {data.map((item, index) => (
             <div key={index} className="card">
               <div className="h-80">
                 <img
                   src={item.image}
                   alt=""
-                  className="h-full w-full object-cover object-center"
+                  className="object-cover object-center w-full h-full"
                 />
               </div>
 
-              <h1 className=" ">{item.title}</h1>
+              <h1 className="">{item.title}</h1>
               <p className="">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
                 ipsa animi facere sit reiciendis eos voluptas at, corrupti
@@ -205,8 +332,8 @@ const Pizzeria = () => {
       </section>
       <section className="relative bg-fixed bg-cover bg-center h-[600px] bg-[url('/images/pexels-photo-6150423.jpeg')]">
         <div className="absolute inset-0 bg-black bg-opacity-30">
-          <div className="  flex flex-col items-center justify-center h-full">
-            <h1 className="text-6xl text-white font-medium font-oswald leading-tight">
+          <div className="flex flex-col items-center justify-center h-full ">
+            <h1 className="text-6xl font-medium leading-tight text-white font-oswald">
               GO AHEAD AND BUILD YOUR OWN PIZZA WE WON’T JUDGE!
             </h1>
           </div>
@@ -222,7 +349,7 @@ const Pizzeria = () => {
             voluptates.
           </p>
         </div>
-        <div className="px-10 grid grid-cols-2 gap-x-20 gap-y-5">
+        <div className="grid grid-cols-2 px-10 gap-x-20 gap-y-5">
           {data2.map((item, index) => (
             <div key={index} className="menu-item">
               <div className="">
@@ -247,6 +374,18 @@ const Pizzeria = () => {
           </p>
         </div>
       </section>
+      <div className="p-20 ">
+        <div className="relative h-40">
+          <img
+            src="https://wallpapercave.com/dwp1x/wp9913321.jpg"
+            alt=""
+            className="object-cover w-full h-full scale-90"
+          />
+          <div className="absolute inset-0">
+            <div className=""></div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
