@@ -64,7 +64,7 @@ a {
 }
 
 .card button {
-  @apply flex text-[#cb9d4d] items-center
+  @apply flex text-[#cb9d4d] items-center w-fit
 }
 
 .card button span {
