@@ -267,7 +267,7 @@ const Pizzeria = () => {
             <Slider {...settings}>
               <div className="h-screen ">
                 <img
-                  src="/images/pexels-photo-2147491 (1).jpeg"
+                  src="https://images.pexels.com/photos/7902939/pexels-photo-7902939.jpeg"
                   className="hero-image"
                   alt=""
                 />
